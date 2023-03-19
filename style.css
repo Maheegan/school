@@ -5,7 +5,7 @@ body {
   margin: 0;
   font-family: 'Allerta Stencil';
 
-  background-image: linear-gradient(rgb(2, 109, 2), rgb(142, 145, 142));
+  background-image: linear-gradient(rgb(142, 145, 142), rgb(2, 109, 2));
   background-size: cover; 
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -99,10 +99,10 @@ img{
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: rgb(2, 109, 2);
+  background-color: rgb(109, 128, 109);
   width:20w;
   /*min-width: 200px;*/
-  border: 15px solid green;
+  border: 15px solid rgb(60, 82, 60);
   padding: 1px;
   margin: 1px;
   border-radius: 20px;
@@ -156,7 +156,7 @@ img{
 }
 
 .box-center{
-  width: 40%;
+  width: 55%;
   
   margin: 0 auto;
   float: center;
@@ -165,7 +165,7 @@ img{
 }
 .box-center p{
   word-wrap: break-word;
-  font-size: 3vw;
+  font-size: 2vw;
 }
 .box-center h1{
   word-wrap: break-word;
@@ -183,7 +183,7 @@ img{
 }
 .box-left p{
   word-wrap: break-word;
-  font-size: 3vw;
+  font-size: 2vw;
   
 }
 .box-left h1{
@@ -203,7 +203,7 @@ img{
 }
 .box-right p{
   word-wrap: break-word;
-  font-size: 3vw;
+  font-size: 2vw;
   
 }
 .box-right h1{
