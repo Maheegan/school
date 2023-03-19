@@ -9,6 +9,40 @@ body {
   background-size: cover; 
   background-repeat: no-repeat;
   background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.some{
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.some:hover{
+  opacity: 0,7;
+}
+.someimg{
+  width: 400px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-size: 2vw;
+}
+.someimg img{
+  width:3em;
+}
+.box-center-some{
+  
+  display:block;
+  margin: 0 auto;
+  float: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 2vw;
+  
 }
 
 
@@ -18,12 +52,13 @@ footer {
   bottom: 0;
   width: 100%;
   position: fixed;
+  margin-top:10px;
 
   
 }
 
 img{
-  width: 15%;
+  width: 25%;
   height: auto;
 }
 
@@ -46,7 +81,7 @@ img{
   font-family: 'Allerta Stencil';
   background:none;
   border-radius: 20px;padding: 10%;
-  font-size: 2vw;
+  font-size: 4vw;
   border: none;
   
 }
@@ -63,7 +98,12 @@ img{
   display: none;
   position: absolute;
   background-color: rgb(2, 109, 2);
-  min-width: 160px;
+  width:20w;
+  /*min-width: 200px;*/
+  border: 15px solid green;
+  padding: 1px;
+  margin: 1px;
+  border-radius: 20px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 
@@ -79,7 +119,7 @@ img{
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: rgb(2, 150, 2);}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
@@ -123,7 +163,11 @@ img{
 }
 .box-center p{
   word-wrap: break-word;
-  font-size: 2vw;
+  font-size: 3vw;
+}
+.box-center h1{
+  word-wrap: break-word;
+  font-size: 3vw;
 }
 
 .box-left{
@@ -137,7 +181,12 @@ img{
 }
 .box-left p{
   word-wrap: break-word;
-  font-size: 2vw;
+  font-size: 3vw;
+  
+}
+.box-left h1{
+  word-wrap: break-word;
+  font-size: 3vw;
 }
 
 .box-right{
@@ -152,8 +201,12 @@ img{
 }
 .box-right p{
   word-wrap: break-word;
-  font-size: 2vw;
+  font-size: 3vw;
   
+}
+.box-right h1{
+  word-wrap: break-word;
+  font-size: 3vw;
 }
 
 
